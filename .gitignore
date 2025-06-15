@@ -128,8 +128,56 @@ dmypy.json
 # Pyre type checker
 .pyre/
 
+# Claude settings
+.claude/*
+
+# Build artifacts
 *.crx
 *.xpi
 *.zip
 geckodriver.log
 extension-examples/nopecha/
+
+# IDE files
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Virtual environments (additional patterns)
+venv*/
+ENV*/
+env*/
+
+# Testing artifacts (ensure comprehensive coverage)
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+coverage.xml
+*.cover
+.hypothesis/
+pytest_cache/
+test-results/
+.tox/
+.nox/
+
+# Package manager files (DO NOT ignore lock files)
+# poetry.lock  # Keep this in version control
+# uv.lock     # Keep this in version control
+dist/
+build/
+*.egg-info/
+.eggs/
+pip-wheel-metadata/
+share/python-wheels/
+
+# Temporary files
+*.tmp
+*.temp
+tmp/
+temp/
+.tmp/
+.temp/
